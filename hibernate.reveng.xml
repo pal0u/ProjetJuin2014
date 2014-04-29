@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-catalog="argentinosll" match-name="adresse"/>
+  <table-filter match-catalog="argentinosll" match-name="arbitre"/>
+  <table-filter match-catalog="argentinosll" match-name="blessures"/>
+  <table-filter match-catalog="argentinosll" match-name="calendrier"/>
+  <table-filter match-catalog="argentinosll" match-name="club"/>
+  <table-filter match-catalog="argentinosll" match-name="clubadverse"/>
+  <table-filter match-catalog="argentinosll" match-name="coupe"/>
+  <table-filter match-catalog="argentinosll" match-name="delegue"/>
+  <table-filter match-catalog="argentinosll" match-name="engendre"/>
+  <table-filter match-catalog="argentinosll" match-name="equipes"/>
+  <table-filter match-catalog="argentinosll" match-name="equipes_joueurs"/>
+  <table-filter match-catalog="argentinosll" match-name="joueurs"/>
+  <table-filter match-catalog="argentinosll" match-name="matchs"/>
+  <table-filter match-catalog="argentinosll" match-name="suspensions"/>
+</hibernate-reverse-engineering>
