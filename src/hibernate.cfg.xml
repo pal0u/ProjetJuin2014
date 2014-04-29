@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost/argentinosll</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password"></property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <mapping class="pojo.Adresse"/>
+        <mapping class="pojo.Arbitre"/>
+        <mapping class="pojo.Blessures"/>
+        <mapping class="pojo.Calendrier"/>
+        <mapping class="pojo.Club"/>
+        <mapping class="pojo.Clubadverse"/>
+        <mapping class="pojo.Coupe"/>
+        <mapping class="pojo.Delegue"/>
+        <mapping class="pojo.Engendre"/>
+        <mapping class="pojo.Equipes"/>
+        <mapping class="pojo.EquipesJoueurs"/>
+        <mapping class="pojo.Joueurs"/>
+        <mapping class="pojo.Matchs"/>
+        <mapping class="pojo.Suspensions"/>
+    </session-factory>
+</hibernate-configuration>
